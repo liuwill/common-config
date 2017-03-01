@@ -13,17 +13,18 @@ cp ./vim/ide.vim .ide.vim
 不同的ide需要安装对应的插件之后才能使用eslint，或者命令行下eslint
 
 ### eslint规则
+ - http://eslint.org/docs/rules/
  - http://blog.guowenfh.com/2016/08/07/ESLint-Rules/
  - http://www.ruanyifeng.com/blog/2016/07/yaml.html
 
 
 ### Visual Studio Code支持ESLint
-> https://segmentfault.com/a/1190000005030647
-> http://www.cnblogs.com/IPrograming/p/VsCodeESLint.html
+ - https://segmentfault.com/a/1190000005030647
+ - http://www.cnblogs.com/IPrograming/p/VsCodeESLint.html
 
 ### Sublime Text支持ESLint
-> http://www.jianshu.com/p/b2985ba08ec9
-> http://blog.csdn.net/lj745280746/article/details/49658249
+ - http://www.jianshu.com/p/b2985ba08ec9
+ - http://blog.csdn.net/lj745280746/article/details/49658249
 
 ### react.eslintrc 是react对应的eslint配置
 
