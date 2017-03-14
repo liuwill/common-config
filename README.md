@@ -1,32 +1,32 @@
-# ¸÷ÖÖÓÃµ½µÄÅäÖÃÎÄ¼þµÄÄ£°æ
+# å„ç§ç”¨åˆ°çš„é…ç½®æ–‡ä»¶çš„æ¨¡ç‰ˆ
 
 > This Project works as a repo for all ide config
 
-## vimÅäÖÃ
-ÐèÒªÅäÖÃÈ«¾ÖµÄ~/.vimrcºÍµ±Ç°ÏîÄ¿µÄ.ide.vimÁ½¸öÎÄ¼þ£¬Ã¿¸öÏîÄ¿Ê¹ÓÃ×Ô¼ºµ¥¶ÀµÄÅäÖÃ£¬È«¾ÖÃ»ÓÐÈÎºÎ¶îÍâÅäÖÃ
+## vimé…ç½®
+éœ€è¦é…ç½®å…¨å±€çš„~/.vimrcå’Œå½“å‰é¡¹ç›®çš„.ide.vimä¸¤ä¸ªæ–‡ä»¶ï¼Œæ¯ä¸ªé¡¹ç›®ä½¿ç”¨è‡ªå·±å•ç‹¬çš„é…ç½®ï¼Œå…¨å±€æ²¡æœ‰ä»»ä½•é¢å¤–é…ç½®
 ```
 cp ./vim/.vimrc ~/.vimrc
 cp ./vim/ide.vim .ide.vim
 ```
 
-## eslintÅäÖÃ
-²»Í¬µÄideÐèÒª°²×°¶ÔÓ¦µÄ²å¼þÖ®ºó²ÅÄÜÊ¹ÓÃeslint£¬»òÕßÃüÁîÐÐÏÂeslint
+## eslinté…ç½®
+ä¸åŒçš„ideéœ€è¦å®‰è£…å¯¹åº”çš„æ’ä»¶ä¹‹åŽæ‰èƒ½ä½¿ç”¨eslintï¼Œæˆ–è€…å‘½ä»¤è¡Œä¸‹eslint
 
-### eslint¹æÔò
+### eslintè§„åˆ™
  - http://eslint.org/docs/rules/
  - http://blog.guowenfh.com/2016/08/07/ESLint-Rules/
  - http://www.ruanyifeng.com/blog/2016/07/yaml.html
 
 
-### Visual Studio CodeÖ§³ÖESLint
+### Visual Studio Codeæ”¯æŒESLint
  - https://segmentfault.com/a/1190000005030647
  - http://www.cnblogs.com/IPrograming/p/VsCodeESLint.html
 
-### Sublime TextÖ§³ÖESLint
+### Sublime Textæ”¯æŒESLint
  - http://www.jianshu.com/p/b2985ba08ec9
  - http://blog.csdn.net/lj745280746/article/details/49658249
 
-### react.eslintrc ÊÇreact¶ÔÓ¦µÄeslintÅäÖÃ
+### react.eslintrc æ˜¯reactå¯¹åº”çš„eslinté…ç½®
 
 ```
 npm install --save-dev babel-eslint eslint-plugin-react eslint
