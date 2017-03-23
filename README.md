@@ -32,3 +32,12 @@ cp ./vim/ide.vim .ide.vim
 npm install --save-dev babel-eslint eslint-plugin-react eslint
 cp ./eslint/react.eslintrc ./eslintrc
 ```
+
+## babelrc
+在项目根目录创建`.babelrc`文件
+```
+cp ./babelrc/es6.babelrc .babelrc
+cp ./babelrc/react.babelrc .babelrc
+```
+
+
