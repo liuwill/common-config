@@ -7,6 +7,7 @@
 * [babel配置babelrc](#babel)
 * [设置环境变量](#env)
 * [网络相关配置](#network)
+* [travis ci配置](#travis)
 
 ## <h2 id="vim">vim配置</h2>
 
@@ -93,6 +94,18 @@ export REDIS_HOME
 
 ```bash
 echo -e "\n127.0.0.1 dev-redis\n" >> /etc/hosts
+```
+
+## <h2 id="travis">travis ci设置</h2>
+
+github集成的持续集成
+
+```bash
+cp ./travis-ci/gradle.travis.yml .travis.yml
+
+OR
+
+cp ./travis-ci/node.travis.yml .travis.yml
 ```
 
 ## nginx
