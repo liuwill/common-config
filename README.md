@@ -31,6 +31,8 @@ cp ./vim/ide.vim .ide.vim
 ```
 npm install --save-dev babel-eslint eslint-plugin-react eslint
 cp ./eslint/react.eslintrc ./eslintrc
+OR
+cp ./eslint/mocha.eslintrc.yml ./eslintrc.yml
 ```
 
 ## babelrc
@@ -40,4 +42,22 @@ cp ./babelrc/es6.babelrc .babelrc
 cp ./babelrc/react.babelrc .babelrc
 ```
 
+## 设置环境变量
+
+### 方法一：设置.bashrc
+```
+echo .bashrc > ~/.bashrc
+
+OR
+
+cp .bashrc ~/.bashrc
+
+#关闭重新打开终端
+```
+
+### 方法二：编辑/etc/profile
+```
+echo -e "\n#[REDIS_HOME]\nexport REDIS_HOME=/usr/home/redis/bin" >> /etc/profile
+source /etc/profile
+```
 
