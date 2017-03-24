@@ -57,7 +57,20 @@ cp .bashrc ~/.bashrc
 
 ### 方法二：编辑/etc/profile
 ```
-echo -e "\n#[REDIS_HOME]\nexport REDIS_HOME=/usr/home/redis/bin" >> /etc/profile
+echo -e "\n#[REDIS_HOME]\nset REDIS_HOME=/usr/home/redis/bin\nexport REDIS_HOME\n" >> /etc/profile
+
 source /etc/profile
+#[REDIS_HOME]
+set REDIS_HOME=/usr/home/redis/bin
+export REDIS_HOME
+## 效果
+
 ```
 
+## 网络相关配置
+
+### 修改系统的hosts配置
+系统hosts设置配置文件`/etc/hosts`
+```
+echo -e "\n127.0.0.1 dev-redis\n" >> /etc/hosts
+```
