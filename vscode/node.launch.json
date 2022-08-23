@@ -1,0 +1,54 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Yarn React App",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": [
+        "run",
+        "react-app:start"
+      ],
+      "env": {
+        "REACT_APP_GLOBAL_SERVER_CONFIG": "{\"protocol\": \"http\",\"host\": \"localhost\",\"port\": \"8002\"}"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Node App",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/node_modules/webpack/bin/webpack.js",
+      "args": ["serve", "--mode", "development"]
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "chrome",
+      "url": "http://127.0.0.1:3000/dist/emails-input__form-example.html",
+      "webRoot": "${workspaceFolder}/dist",
+      "sourceMaps": true,
+      "trace": "verbose",
+      "sourceMapPathOverrides": {
+        "webpack:///./*": "${workspaceFolder}/src/*",
+        "webpack:///src/*": "${workspaceFolder}/src/*"
+      }
+    },
+    {
+      "type": "pwa-msedge",
+      "request": "launch",
+      "name": "Launch Edge against localhost",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
